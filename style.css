@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.navigasi {
+    background-color: rgb(123, 204, 183);
+    width: 100%;
+    height: 70px;
+    color: white;
+}
+
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+
+.menu {
+    margin-left: 1000px;
+    padding-top: 25px;
+}
+
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu ul li a:hover {
+    color: rgb(0, 0, 0);
+    font-style: initial;
+}
+
+
+.banner {
+    background-color: rgb(115, 188, 168);
+    height: 350px;
+    text-align: center;
+    color: white;
+}
+
+
+.banner img{
+    border-radius: 50px;
+    height: 100px;
+    border: 3px solid white;
+    margin-top: 30px;
+}
+
+
+.banner h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.banner button{
+    margin-top: 30px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+
+.banner button:hover {
+    background-color: rgb(205, 205, 205);
+}
+
+
+@keyframes gantiTulisan {
+    0% {
+        font-size: 24px;
+    }
+    50% {
+        font-size: 24px;
+    }
+    100% {
+        font-size: 24px;
+    }
+}
+
+.tulisan-ganti {
+    animation: gantiTulisan 4s infinite; /* Sesuaikan dengan interval JavaScript (4 detik) */
+}
+
+.box-pendidikan {
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+    align-content: center;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 210px;
+    height: 350px;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    padding: 40px 100px;
+    margin: 70px 35px 35px 55px;
+    float: left;
+    border-radius: 20px;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: rgb(94, 174, 151);
+    color: white;
+}
+
+.box-karya {
+    font-size: larger;
+    text-align: center;
+    background-color:rgb(206, 206, 206);
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 330px;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+
+.box-karya img {
+    float: left;
+    margin-top: 250px;
+    width: 600px;
+    border-radius: 10px;
+    margin-left: -350px;
+    border: 3px solid black;
+}
+
+.karya-text1 {
+    font-size: larger;
+    background-color: rgb(206, 206, 206);
+    margin-top: 160px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    margin-left: 700px;
+    margin-right: 190px;
+    border-radius: 10px;
+}
+
+.box-karya2 img {
+    float: left;
+    margin-top: 50px;
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 55px;
+    border: 3px solid black;
+}
+
+.karya-text2 {
+    font-size: larger;
+    background-color: rgb(206, 206, 206);
+    margin-top: 130px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    margin-left: 700px;
+    margin-right: 190px;
+    border-radius: 10px;
+}
+
+.text-awal {
+    margin-left: 690px;
+}
+
+.text-level {
+    margin-top: 200px;
+    margin-left: 690px;
+}
+
+.level-text {
+    font-size: larger;
+    margin-top: 200px;
+    background-color: rgb(206, 206, 206);
+    margin-left: 50px;
+    margin-right: 860px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.lvimg1-2 img{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 130px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.lvimg3-4 img{
+    width: 400px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.texttlevel1-2 {
+    font-size: larger;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+
+.texttlevel3-4 {
+    font-size: larger;
+    margin-left: 170px;
+}
+
+.text-link {
+    margin-top: 200px;
+    margin-left: 650px;
+}
+
+.linkgametext {
+    font-size: larger;
+    padding-top: 50px;
+    background-color: rgb(206, 206, 206);
+    padding-left: 50px;
+    padding-right: 100px;
+    margin-left: 370px;
+    margin-right: 370px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.linkgame {
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.linkgame button {
+    font-size: larger;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.linkgame button:hover {
+    background-color: rgb(205, 205, 205);
+}
+
+.text-link {
+    margin-top: 100px;
+    margin-left: 690px;
+}
+
+.box-kontak img {
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.box-kontak {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}

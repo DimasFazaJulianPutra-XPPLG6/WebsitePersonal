@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+<div class="navigasi" id="Home">    
+    <div class="logo">
+        <h2>
+            Biodata
+        </h2>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="Profile.html">Home</a></li>
+            <li><a href="#Pendidikan">Pendidikan</a></li>
+            <li><a href="Karya.html">Karya</a></li>
+            <li><a href="#Kontak">Kontak</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="banner">
+    <img src="foto/kecil.jpeg" alt=":]" size="10">
+    <h1>
+        Halo...
+    </h1>
+    <div id="tulisan-ganti" class="tulisan-ganti">Selamat datang!</div>
+
+    <script>
+        var elemen = document.getElementById('tulisan-ganti');
+        var kata = ['Terimakasih sudah mampir!', 'Nama saya Dimas Faza Julian Putra :)', 'Selamat Datang!'];
+        var indeks = 0;
+
+        setInterval(function() {
+            elemen.textContent = kata[indeks];
+            indeks = (indeks + 1) % kata.length;
+        }, 4000); // Ganti setiap 4 detik
+    </script>
+
+    <a href="Full.html">
+        <button>
+            Tampilan lengkap
+        </button>
+    </a>
+</div>
+
+<div class="box-pendidikan" id="Pendidikan">
+    <h1>Riwayat Pendidikan</h1>
+    <div class="box-kiri">
+        <img src="foto/esde.png" width="150px">
+        <br>
+        <br>
+        <p>
+        <h3>
+            Sekolah Dasar
+        </h3>
+        </p>
+        <p>
+            Di SD saya bersekolah di 
+            SD Negeri 3 Kedungwuluh
+            Jl. Mayjend. Sutoyo, Sawangan, Kedungwuluh, Kec. Purwokerto Bar., Kabupaten Banyumas, Jawa Tengah
+            <br>
+            <br>
+            <br>
+            <a href="https://www.google.com/maps/place/SD+Negeri+3+Kedungwuluh/@-7.4256898,109.2238111,17z/data=!3m1!4b1!4m6!3m5!1s0x2e655e6505966ca9:0x79eb325c0a7bb5c2!8m2!3d-7.4256898!4d109.226386!16s%2Fg%2F1hm2z10bl?entry=ttu">Kunjungi</a>
+        </p>
+    </div>
+
+    <div class="box-tengah">
+        <img src="foto/esempe.png" width="150px">
+        <br>
+        <br>
+        <p>
+        <h3>
+            Sekolah Menengah Pertama
+        </h3>
+        </p>
+        <p>
+            Di SMP saya bersekolah di 
+            SMP Telkom Purwokerto 
+            Jl. DI Panjaitan No.128, Karangreja, Purwokerto Kidul, Kec. Purwokerto Sel., Kabupaten Banyumas, Jawa Tengah
+            <br>
+            <br>
+            <a href="https://www.google.com/maps/place/SMP+Telkom+Purwokerto/@-7.4348651,109.2478658,17z/data=!3m1!4b1!4m6!3m5!1s0x2e655e9cddaa6b77:0x489c8a0483066e31!8m2!3d-7.4348651!4d109.2504407!16s%2Fg%2F11c6sch_9v?entry=ttu">Kunjungi</a>
+        </p>
+    </div>
+
+    <div class="box-kanan">
+        <img src="foto/esemka.png" width="150px">
+        <br>
+        <br>
+        <p>
+        <h3>
+            Sekolah Menengah Kejuruan
+        </h3>
+        </p>
+        <p>
+            Di SMK saya bersekolah di 
+            SMK Telkom Purwokerto 
+            Jl. DI Panjaitan No.128, Karangreja, Purwokerto Kulon, Kec. Purwokerto Sel., Kabupaten Banyumas, Jawa Tengah
+            <br>
+            <br>
+            <a href="https://www.google.com/maps/place/SMK+Telkom+Purwokerto/@-7.4350009,109.2468864,17z/data=!3m1!4b1!4m6!3m5!1s0x2e655e9d1768e4d1:0x959269c10818fa0c!8m2!3d-7.4350009!4d109.2494613!16s%2Fg%2F11gzgqth4?entry=ttu">Kunjungi</a>
+        </p>
+    </div>
+</div>
+
+<center>
+    <div class="box-kontak" id="Kontak">
+        <h1>
+            Hubungi kontak saya
+        </h1>
+        <img src="foto/kontak.png" width="150">
+        <h2>
+            0815-7515-0958
+        </h2>
+    </div>
+</center>
+
+
+</body>
+</html>
